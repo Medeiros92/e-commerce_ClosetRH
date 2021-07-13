@@ -24,4 +24,3 @@
 
 [logo]: images/logop.png
 [screen]: images/Screenshot.jpg
-

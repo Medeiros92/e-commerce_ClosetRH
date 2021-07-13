@@ -1,0 +1,162 @@
+@font-face {
+    font-family: FashionL;
+    src: url('../fonts/fashl954.ttf');
+ }
+
+/*------Alterando estilo do Bootstrap------*/
+#bootstrap-overrides{
+    background-color: #080808;
+}
+
+/*------Cabeçalho------*/
+.header{
+    background-image: linear-gradient( #353330ed, #181616);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+/*------LOGO------*/
+.logo img{
+    margin-top: 8px;
+    width: 112px;
+    height: 95.2px;
+}
+
+/*------Nav Bar------*/
+.nav-menu{
+    width: 50%;
+    height: 80%;
+    display: flex;
+
+}
+    
+
+.menu{
+    width: 93%;
+    height: 59px;
+    margin: auto;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   
+
+}
+
+.ico-menu{
+    list-style: none;
+    align-items: center;
+}
+
+.link-menu{
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: large;
+    margin-left: 40px;
+    font-size: x-large;
+    font-family: 'FashionL', sans-serif;
+}
+
+.link-menu:hover{
+    color: rgb(163, 163, 163);
+    transition: 300ms;
+}
+
+/*------Menu de ícones------*/
+.contot{
+    width: 20%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+.ot{
+    width: 40px;
+}
+
+/*------Carrosel de imagens------*/
+.div-img{
+    background-color: #272424;
+    height: 400px;
+}
+
+/*------Imagens Gêneros------*/
+.container-cat{
+    margin-top: 30px;
+    height: 600px;
+    background-color: #242424;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.cat{
+    margin-left: 10px;
+    width: 418px;
+    height: 100%;
+    background-color: tomato;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cat-img {
+width: 100%;
+height: 100%;
+}
+
+/*------Imagem Oferta------*/
+#oferta{
+    width: 400px;
+    position: absolute;
+    top: 90px;
+    margin-left: 950px;
+}
+
+#oferta img{
+    width: 310px;
+}
+
+/*------Botão Oferta------*/
+#oferta button{
+    width: 120px;
+    height: 40px;
+    background-color: #d19f20;
+    position: relative;
+    left: 95px;
+    top: 20px;
+    color: #00000088;
+    border: none;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.37);
+}
+
+#oferta button:hover{
+
+    background-color: #ffb700;
+    transition: 400ms;
+
+}
+
+/*------Texto Botão------*/
+#oferta button p{
+    font-size: 18px;
+    text-align: center;
+    margin-top: -3px;
+    font-weight: 600;
+}
+
+/*------Rodapé------*/
+.footer{
+    background-color: #080808;
+    height: 200px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
